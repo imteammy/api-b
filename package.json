@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "jest",
+    "kill": "npx npkill",
+    "clean": "npm cache clean --force",
+    "dev": "nodemon index.js",
+    "dist": "rm -rf ./dist",
+    "b": "gulp product && cd .. && cd api-b && git add . && git commit -am \"version 1.0.6\" && git push --force"
   },
   "repository": {
     "type": "git",
