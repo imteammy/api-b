@@ -1,0 +1,46 @@
+{
+  "name": "starter-express-api",
+  "version": "1.0.5",
+  "description": "rov-api by peerawat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "dev": "nodemon index.js",
+    "dev2": "nodemon test.js",
+    "css": "npx tailwindcss -i ./public/css/index.css -o ./dist/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+  },
+  "author": "peerawat khotwicha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  },
+  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^7.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "axios": "^1.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-alias": "^1.2.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^29.6.1",
+    "nodemon": "^2.0.22",
+    "tailwindcss": "^3.3.2"
+  }
+}
