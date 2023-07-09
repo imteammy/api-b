@@ -10,7 +10,7 @@
     "clean": "npm cache clean --force",
     "dev": "nodemon index.js",
     "dist": "rm -rf ./dist",
-    "build": "gulp product && cd .. && cd api-b && git add . && git commit -am \"version 1-0-6\" && git push --force"
+    "build": "gulp product && cd .. && cd api-b && git add . && git commit -am \"version 1.0.6\" && git push --force"
   },
   "repository": {
     "type": "git",
