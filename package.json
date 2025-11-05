@@ -1,6 +1,6 @@
 {
   "name": "starter-express-api",
-  "version": "1.0.9",
+  "version": "1.0.8",
   "description": "rov-api by peerawat",
   "main": "index.js",
   "scripts": {
